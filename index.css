@@ -1,14 +1,17 @@
 body {
-    margin: 2;
+    background-image: radial-gradient(circle at 50% -20.71%, #9edee6 0, #7ed1e1 16.67%, #57c3dc 33.33%, #00b3d8 50%, #00a3d5 66.67%, #0093d2 83.33%, #0085d0 100%);
     font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
+    color: #009ce9;
+}
+
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: #8e8e8e;
 }
 
 .cuadro {
+    width: 90%;
     display: block;
     line-height: 1.5;
     background-color: #fff;
@@ -21,27 +24,36 @@ body {
 }
 
 .dato {
-    margin-bottom: 1rem!important;
+    margin-bottom: 1rem !important;
 }
 
 .titulo {
     margin-bottom: .5rem;
     display: inline-block;
+    font-weight: 500;
+}
+
+.titulo1{
+    text-align: center;
 }
 
 .contenedor {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    background-color: #FFFFFF;
+    width: 25vw;
     padding: 1.5rem;
-    margin-right: 0;
-    margin-left: 0;
     border-width: 1px;
     border: solid #dee2e6;
-    border-radius: .25rem;
+    border-radius: 10px;
 }
 
-.boton{
+.boton {
+    margin-top: 10px;
     color: #fff;
-    background-color: #198754;
-    border-color: #198754;
+    background-color: #0077B6;
+    border-color: #0077B6;
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;

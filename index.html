@@ -11,7 +11,8 @@
 
 <body>
     <div class="contenedor">
-        <form action="">
+        <h1 class="titulo1">Digite sus datos</h1>
+        <form>
             <div class="dato">
                 <label for="nombre" class="titulo">Digite nombre</label>
                 <input class="cuadro" type="text" id="nombre" placeholder="Nombre y apellidos" required>
@@ -23,6 +24,10 @@
             <div class="dato">
                 <label for="direccion" class="titulo">Digite dirección</label>
                 <input class="cuadro" type="text" id="direccion" placeholder="Dirección" required>
+            </div>
+            <div class="dato">
+                <label for="direccion" class="titulo">Digite fecha de nacimiento</label>
+                <input class="cuadro" type="date" id="fecha-de-nacimiento" required>
             </div>
             <div class="dato">
                 <label for="email" class="titulo">Digite correo electrónico</label>
@@ -39,7 +44,8 @@
             <button class="boton" type="submit">Confirmar</button>
         </form>
     </div>
+	<script src="/index.js"></script>
 </body>
-<script src="/index.js"></script>
+
 
 </html>
